@@ -30,3 +30,4 @@ Unfortunately, rebranding nuclear energy is going to take a lot more than one cl
     <li>Teller, Astro. “The unexpected benefit of celebrating failure.” TED, February 2016.</li>
 </ul>
 
+<! -- how to update website: https://gist.github.com/mandiwise/44d1edce18f2ffb14f63-->
