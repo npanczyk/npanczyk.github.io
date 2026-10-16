@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: resume
+title: cv
 nav: true
 nav_order: 3
-cv_pdf: portfolio_resume.pdf
-description: Download a copy of my resume here.
+cv_pdf: natalypanczyk_cv.pdf
+description: Download a copy of my curriculum vitae here.
 toc:
   sidebar: left
 ---
