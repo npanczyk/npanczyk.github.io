@@ -1,8 +1,8 @@
 "Under Review":
-  color: "#ffd670"
+  color: "#3a86ff"
 "Forthcoming":
-  color: "#ff9770"
-"Published":
-  color: "#ff70a6"
+  color: "#fb5607"
+"Journal":
+  color: "#06d6a0"
 "Conference":
-  color: "70d6ff"
+  color: "#be0aff"
