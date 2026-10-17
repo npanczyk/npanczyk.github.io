@@ -21,7 +21,6 @@ with Fully Convolutional Neural Networks},
   author={Panczyk, Nataly R. and Radaideh, Majdi I.},
   note={Accepted, Forthcoming in Artificial Intelligence Review},
   abbr = {Forthcoming},
-  pdf = {panczyk_SLR.pdf},
   abstract = {While applications abound for the modern surge of artificial-intelligence (AI)-based technologies, we owe special care to those in which human lives are at stake. Perilously, AI advances faster than the regulations that protect us from it. As such, in this review, we explore the impact of AI on high-stakes decision-making. Though reviews have attempted adjacent analyses before, none have effectively targeted safety-critical industries or considered the relation between AI developers, users, and regulators. To address these gaps, we conduct a systematic literature review. We cast a wide net in our search of two databases, Web of Science and Scopus, then filter with a series of criteria that qualify a system's sensitivity, decision-making framework, and risk. After distilling our initial pool of 1,135 papers retrieved on December 15, 2025 into a final subset of 72 reports, we identify critical features of AI systems and industry implementation practices that demonstrate: 1) the safety risks of using AI in high-stakes decision-making, 2) how we can mitigate these risks, and 3) how we can assign responsibility for AI-based decisions. We perform a quality assessment, including risk of bias, on each study in our final corpus to ensure adequate rigor of retrieved material. We extract categorical and binary data from the articles reviewed to provide quantitative trends towards the types of AI used across the industries considered and the expertise of the end-user of these applications, as well as the decision-making time those users are allotted. We also perform a qualitative analysis of the trends described in these studies, on a per-industry basis. A key finding of our review is that, contrary to popular broad calls for increasing model interpretability and explainability, we find these features only useful in specific safety-critical scenarios- when the user has both the
   expertise and time to review a model output. Such cases do not require
   regulation to authorize user trust. Counterintuitively, overregulation in these scenarios may obstruct expert oversight in the United States. Alternatively, when expertise or time is limited, validation (not explanation) techniques and robust regulation must authorize user trust.
@@ -37,7 +36,6 @@ with Fully Convolutional Neural Networks},
   pages={},
   year={2026},
   code={https://github.com/aims-umich/2025-panczyk-slr},
-  pdf = {panczyk_SLR.pdf},
 }
 
 @article{panczykKAN,
@@ -50,8 +48,7 @@ with Fully Convolutional Neural Networks},
   year={2025},
   month={December},
   doi={10.1016/j.egyai.2025.100595},
-  url={https://www.sciencedirect.com/science/article/pii/S2666546825001272?via%3Dihub},
-  pdf={panczyk_KAN.pdf},
+  html={https://www.sciencedirect.com/science/article/pii/S2666546825001272?via%3Dihub},
 }
 
 @article{myersPYMAISE,
@@ -61,7 +58,7 @@ with Fully Convolutional Neural Networks},
   abbr={Journal},
   volume={180},
   year={2025},
-  url={https://www.sciencedirect.com/science/article/pii/S0149197024005183},
+  html={https://www.sciencedirect.com/science/article/pii/S0149197024005183},
   doi={10.1016/j.pnucene.2024.105568}
 }
 
@@ -74,7 +71,6 @@ with Fully Convolutional Neural Networks},
   abbr      = {Conference},
   abstract  = {This work seeks to demonstrate the feasibility of augmenting traditional R-Matrix codes with a robust machine learning framework by automatically detecting neutron resonances from transmission spectra. Notoriously chaotic, neutron transmission data prove unwieldy to traditional peak identification methods. The state-of-the-art R-Matrix codes physicists currently rely on to fit them depend on prior evaluations and much patience. This work presents a preliminary study that demonstrates how to expedite the post-experimental processing of neutron transmission data and to reduce skew by eliminating dependence on prior evaluations. We employ a fully convolutional neural network to make point-wise classifications of resonance or not-resonance regions of three transmission spectra—two evaluations and one experimental. We demonstrate up to 95% accuracy when testing within the same spectrum and up to 87% accuracy when testing on an unseen spectrum for a different nucleus, and we find these metrics conservative based on the application demands. By demonstrating this feasibility, we suggest future work both expand on the methods we use to resolve the resonances and to develop a framework to extract resonance parameters from those regions
  through an extended dataset of more spectra},
-  pdf       = {panczyk_PHYSOR26.pdf},
   slides    = {physor_slides2026.pdf},
   bibtex_show = {true}
 }
@@ -86,7 +82,6 @@ with Fully Convolutional Neural Networks},
   year      = {2025},
   abbr      = {Conference},
   abstract  = {The purpose of this work is to demonstrate ad hoc explainability methods for artificial intelligence (AI) applications to the nuclear industry. We specifically consider using a feedforward neural network (FNN) to predict critical heat flux (CHF) using 60 years worth of data collected from a variety of experimental setups. The FNN uses combinations of six different features in the dataset to predict theonset of CHF, a safety critical parameter in a nuclear reactor. After assessing the state-of-the-art in employing explainability methods for various AI models, we chose Shapley Additive Explanations (SHAP) for its consistency and model-agnostic nature. We then use three flavors of the SHAP methodology (Exact SHAP, DeepLIFT, and Integrated Gradients) to rank the feature importances of the model. We found heated channel length, followed by mass flux and inlet temperature to be the most impactful on CHF prediction when considering a combination of five of the six input features. We validated these results using mean decrease in impurity and permutation importance metrics from a random forest model trained on the same data, and found an identical feature importance ranking. We also experienced a shortcoming in SHAP—it fails to consider feature correlations in determining their importance rankings. Future work should consider implementing explainability methods within the model, not just global metrics as shown in this work, for improved reliability.},
-  pdf       = {xu_mc25.pdf},
   slides    = {xu_mc25_slides.pdf},
   bibtex_show = {true}
 }
@@ -98,7 +93,6 @@ with Fully Convolutional Neural Networks},
   year      = {2025},
   abbr      = {Conference},
   abstract  = {Artificial intelligence (AI) looms as a double-edged sword in the nuclear industry. On one side lies the promise of fast, accurate results. On the other, a black-box of calculations that is impossible to verify, validate, or regulate. This work presents an alternative to traditional, black-box AI: a Kolmogorov-Arnold Network (KAN) that produces interpretable results in the form of a symbolic equation. In this work we apply a KAN to two nuclear engineering problems using PyKAN, a Python package for constructing KANs with PyTorch. The first application predicts  critical heat flux with 60 years of experimental data. The second predicts neutron flux in a high-temperature gas-cooled reactor with simulated data. We then compare the KAN model results against a traditional feed-forward neural network and conduct an explainability analysis using the Shapley game theory metrics to effectively evaluate each model's accuracy, interpretability, and explainability. While the KANs created for both problems in this analysis slightly underperformed in terms of accuracy, these results are offset by significant increases in interpretability and are on par in terms of explainability. While future work must consider further hyper parameter tuning and additional case studies, KANs stand to address the double-edged sword predicament of AI in nuclear.},
-  pdf       = {erdem_mc25.pdf},
   bibtex_show = {true}
 }
 
@@ -122,7 +116,6 @@ with Fully Convolutional Neural Networks},
   this experiment are to streamline a method of measuring
   stable film boiling points and transient cooldown behavior for
   this system.},
-  pdf       = {panczyk_sc23.pdf},
   slides    = {panczyk_sc23_slides.pdf},
   bibtex_show = {true}
 }
