@@ -2,15 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Nataly Panczyk
-    - name: Date of Birth
-      value: 11th June 2002
+      value: Nataly R. Panczyk
     - name: Languages
-      value: English, Spanish
+      value: English, Working Spanish
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D.
+      institution: University of Michigan
+      year: In-Progress
+      description:
+        - Nuclear Engineering and Radiological Sciences
+        - Research Focus - Validation and Interpretation Methods for High-Stakes Decision-Making
     - title: Bachelor of Science
       institution: University of Illinois Urbana-Champaign
       year: May 2024
@@ -22,6 +26,22 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Guest Researcher
+      institution: Los Alamos National Laboratory
+      year: June 2025
+      description:
+        - Development of a machine learning-based neutron resonance fitting algorithm using a 1D convolutional neural network.
+        - Ended April 2026
+    - title: Research Assistant
+      institution: Multiphase Thermo-Aluid Dynamics Laboratory at UIUC
+      year: January 2023
+      description:
+        - Analysis of post-critical heat Mlux (CHF) conditions for downward Mlow boiling in a vertical square channel
+        - Responsible for maintenance and operation of the High Heat Flux Test Section (HHFTS)
+        - Developed data visualization, animation, and analysis code in Python for experimental results from the HHFTS
+        - Created data visualizations and processing techniques for nuclear opinion survey data in collaboration with The International Institute for Carbon- Free Energy Research hosted at Kyushu University in Fukuoka, Japan
+        - Mentored by Prof. Caleb Brooks
+        - Ended January 2024
     - title: Intern
       institution: MPR Associates
       year: May 2023
@@ -30,13 +50,6 @@
         - Developed maintenance dose tool for a fusion system
         - Drafted a white paper on pairing municipal wastewater systems with nuclear microreactors for EPRI
         - Ended July 2023
-
-    - title: Research Assistant
-      institution: Multiphase Thermo-fluid Dynamics Laboratory - UIUC
-      year: Jan. 2023 
-      description:
-        - Analyzing post-CHF conditions for downward flow boiling in a high heat flux test section
-        - Present Position
 
     - title: Research Assistant
       institution: Advanced Reactors and Fuel Cycles - UIUC
@@ -63,12 +76,12 @@
         - Automated nuclear waste management modeling quality assurance and data visualization techniques
         - Ended August 2022
 
-    - title: Teaching Assistant, NPRE 247 & NPRE 100
+    - title: Teaching Assistant, NPRE 247, NPRE 100, & NPRE 455
       institution: Grainger College of Engineering - UIUC
       year: Aug. 2021 
       description:
-        - Assisted in the NPRE department’s two introductory courses (247,  Modeling Nuclear Energy Systems; 100, Intro to NPRE) by grading projects and hosting office hours
-        - Ended May 2022
+        - Assisted in the NPRE department's two introductory courses (247,  Modeling Nuclear Energy Systems; 100, Intro to NPRE; 455, Neutron Diffusion and Transport) by grading projects and hosting office hours
+        - Ended May 2024
 
     - title: Intern
       institution: Idaho National Laboratory
@@ -77,11 +90,46 @@
         - Conducted a technoeconomic analysis on the feasibility of implementing microreactors into a clean steel manufacturing scheme using Temoa, an open-source energy system optimization model
         - Ended August 2021
 
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: U.S. Nuclear Regulatory Commission AI Workshop
+      year: Sept. 2026
+      location: Washington, D.C.
+      description: 
+        - Applying AI-Based Decision-Making to Safety-Critical Industries, Lessons Learned for Regulation, Validation, and Trust
+
+    - title: Harper Academy Lecture
+      year: June 2026
+      location: Ann Arbor, MI
+      description: 
+        - Seminar for Washtenaw County high schoolers on safety-critical AI
+
+    - title: Alchemy3 Annual Retreat
+      year: Feb. 2026
+      location: Nashville, TN
+      description: 
+        - Seminar on safe use of generative AI in the workplace
+
+    - title: ML for Nuclear Engineering Guest Lecture
+      year: Jan. 2026
+      location: Ann Arbor, MI
+      description: 
+        - NERS 590 Special Topics lecture on linear regression methods, including Lasso and Ridge regressions
 
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: April 2024
+      items: 
+        - National Science Foundation Graduate Research Fellowship
+    - year: April 2024
+      items: 
+        - University Nuclear Leadership Program Graduate Fellowship (Declined)
+    - year: March 2024
+      items: 
+        - NPRE Outstanding Academic Achievement Award to a Graduating Senior
     - year: Sept. 2023
       items: 
         - Kirkwood Women in Engineering Scholarship
@@ -116,4 +164,4 @@
   type: list
   contents:
     - <u>Languages:</u> English, Spanish (working)
-    - <u>Code:</u> Python, Git, Github, LaTEX, MATLAB, HTML, CSS
+    - <u>Code:</u> Python, PyTorch, TensorFlow, Git, Github, LaTEX, MATLAB, HTML, CSS
