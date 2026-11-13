@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: lyon_cropped.JPG
+  image: headshot.JPG
   image_circular: false # crops the image to make it circular
 
 news: false  # includes a list of news items
@@ -14,7 +14,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Here to tell you why <span class="accentblue">splitting atoms is the best way to address climate change</span> and why <span class="accentorange">not every problem needs to be solved with AI</span>.
+Here to tell you why <span class="accentblue">splitting atoms is the best way to address climate change.
 
 Nataly Panczyk is a third year Ph.D. student in Nuclear Engineering and Radiological Sciences at the University of Michigan. Sponsored by the National Science Foundation's Graduate Research Fellowship Program, **her research develops validation and interpretation methods for artificial intelligence in safety-critical industries**. In particular, she wants to understand when, why, and how we can trust ML-based systems to make high-stakes decisions.
 
